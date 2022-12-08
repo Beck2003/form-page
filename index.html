@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+        
+        <style type="text/css">
+            head body form h1 div .parent .firstName .lastName .email .submit {
+                padding: 0;
+                margin: 0;
+                border: 0;
+            }
+            body {
+                font-family: 'Oswald', sans-serif;
+                border: 1px solid black;
+                margin: 250px auto;
+                height: 250px;
+                width: 250px;
+            }
+          
+            .parent {
+                text-align: center;
+                padding: 5px;
+            }
+            .firstName, .lastName, .email, .submit {
+                display: inline-block;
+            }
+            .submit input {
+                width: 220px;
+            }
+        </style>
+
+    </head>
+    <body>
+        
+        <form>
+            <div class="parent"><h1>Contact Me</h1></div>
+            <div class="parent">
+                <div class="firstName">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" placeholder="First Name">
+                </div>
+            </div>
+            <div class="parent">
+                <div class="lastName">
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" placeholder="Last Name">
+                </div>
+            </div>
+            <div class="parent">
+                <div class="email">
+                <label for="email">Email:</label>
+                <input type="text" id="email" placeholder="Email">
+                </div>
+            </div>
+            <div class="parent">
+                <div class="submit">
+                <label for="submit"></label>
+                <input type="submit" id="submit">
+                </div>
+            </div>
+        </form>
+    </body>
+</html>
